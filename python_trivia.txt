@@ -1,0 +1,91 @@
+A Python Trivia Episode
+Opening a File
+Let’s say you want to open a plain text file. What command do you use?
+.close()
+.open()
+.readlines()
+.readline()
+2
+If you want to open a file, you obviously use .open()
+1
+Closing a File
+Let’s say you have a file open and want to close it. What command do you use?
+.open()
+.readlines()
+.close()
+.readline()
+3
+Obviously, you close a file using .close()
+2
+File formats
+If you want to open a file to read from and write to a file, without an error being produced /if the file does not yet exist, what file mode do you choose?
+“w”
+“r”
+“w+”
+“a”
+3
+“w+” allows you to read from a file, write to a file, and won’t throw an error if the file /doesn’t exist. Instead, it will create a new file.
+2
+Text positions
+In example_file.txt, you have written “Line 1 goes here.”. You input example_file.read(3) /and return. You then input example_file.(5). What does IDLE spit out in interactive mode?
+“Line “
+“Lin”
+“here.”
+“e 1 g”
+4
+.read() functions like a bookmark. If you run the method once, then run it again with a /different number, it will pick up where the first number left off.
+2
+Reading lines
+What does .readline() return?
+All text in the file
+A list of strings containing each line in the file
+All text on the current line as a string
+All text on the current line in a tuple
+3
+.readline() only returns text on the current line in the form of a string
+2
+S or no s?
+What does .readlines() return?
+All text in the file
+A list of strings containing each line in the file
+All text on the current line as a string
+All text on the current line in a tuple
+2
+.readlines() returns a list, which is incredibly useful.
+2
+Number of lines
+You’re working with file, write_it.txt. How do you print the number/ of lines write_it.txt has?
+lines = write_it.readlines(); print len(lines)
+lines = write_it.readline(); print len(lines)
+count = 0; for line in write_it.txt: if line: count += 1; print count
+No ideas
+1
+Dear god, please do not try option three.
+2
+Error! Error! Error!
+You’ve typed in file_wanted = open.(“bedazzled.txt”, “r”). However. /bedazzled.txt doesn’t exist. What kind of error does IDLE throw?
+ValueError
+IOError
+SyntaxError
+IndexError
+2
+IOError is raised when you attempt to open a nonexistent file.
+2
+Pickles are Gross
+You want to store key words associated with multiple strings in a file. What type of data /structure do you use?
+A list of tuples
+Lists within a list
+A dictionary with multiple values for each key
+A dictionary with one value for each key
+3
+Key words, as in a dictionary key. Duh.
+2
+Import, Import, Import
+You type import cPickle, shelve. What does shelve do?
+store and randomly access pickled objects in a file
+print out emoticons of pickles
+pickle and store complex data into a file
+Open a file
+1
+Pickle emoticons? Please tell me you didn’t choose pickle emoticons.
+2

@@ -1,0 +1,19 @@
+http://cgi.soic.indiana.edu/~dtrodger/Shop.cgi
+
+
+create table Plants (PlantID int(11) auto_increment not null, CommmonName
+varchar(32), BotanicalName varchar(32), Price decimal(10,2),
+primary key (PLantID));
+
+create table Transactions (TransactionID int(11) auto_increment not null, Buyer
+varchar(36), PlantID int(11), Quantity int(11), primary key (TransactionID));
+
+insert into Plants values ("", "Anemone", "Anemone blanda", 8.86);
+
+insert into Plants values ("","Bee Balm", "Monarda didyma", 4.59);
+
+insert into Plants values ("","Bloodroot","Sanguinaria canadensis", 2.44);
+
+insert into Plants values ("","Trillium","Trillium grandiflorum",3.90);
+
+insert into Plants values ("","Wake Robin","Erythronium americanum",3.20);
